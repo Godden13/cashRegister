@@ -1,7 +1,7 @@
 const price = document.getElementById('price')
 const cash = document.getElementById('cash')
 const form = document.getElementById('cash-register')
-const display = document.getElementById('output') 
+const display = document.getElementById('output')
 const oneHundred = document.getElementById('one-hundred')
 const twenty = document.getElementById('twenty')
 const ten = document.getElementById('ten')
@@ -11,10 +11,8 @@ const quarter = document.getElementById('quarter')
 const dime = document.getElementById('dime')
 const nickel = document.getElementById('nickel')
 const penny = document.getElementById('penny')
-const btnElement = document.getElementById('refund')
 
-
-function checkCashRegister(price, cash, cid) {
+function checkCashRegister (price, cash, cid) {
   // Variable declarations
   const currency = [
     { name: 'ONE HUNDRED', val: 100.0 },
