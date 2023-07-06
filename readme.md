@@ -27,7 +27,7 @@ This page is basically built with just
 
 - $ git clone `https://github.com/Godden13/cashRegister.git`
 - $ `cd cashRegister`
-- $ `git checkout feature/cashRegister`
+- $ `git checkout feature/main`
 
 ## CONTRIBUTION
 Contributions, issues, and feature requests are welcome!
