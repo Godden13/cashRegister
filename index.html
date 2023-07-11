@@ -1,14 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/style/style.css">
-  <title>Cash Register</title>
-</head>
-<body>
-  
-  <script src="./assets/script/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <title>Cash Register</title>
+  </head>
+  <body>
+    <h3>Cash Register</h3>
+    <form action="" id="cash-register">
+      <div id="inputs">
+        <input type="text" placeholder="Purchase price" id="price" />
+        <input type="text" placeholder="Payment" id="cash" />
+        <div class="change">
+          <input
+            type="number"
+            name="penny"
+            id="penny"
+            class="money"
+            placeholder="Penny"
+          />
+          <input
+            type="number"
+            name="nickel"
+            id="nickel"
+            class="money"
+            placeholder="Nickel"
+          />
+
+          <input
+            type="number"
+            name="dime"
+            id="dime"
+            class="money"
+            placeholder="Dime"
+          />
+
+          <input
+            type="number"
+            name="quarter"
+            id="quarter"
+            class="money"
+            placeholder="Quarter"
+          />
+          <input
+            type="number"
+            name="one"
+            id="one"
+            class="money"
+            placeholder="One"
+          />
+
+          <input
+            type="number"
+            name="five"
+            id="five"
+            class="money"
+            placeholder="Five"
+          />
+
+          <input
+            type="number"
+            name="ten"
+            id="ten"
+            class="money"
+            placeholder="Ten"
+          />
+
+          <input
+            type="number"
+            name="twenty"
+            id="twenty"
+            class="money"
+            placeholder="Twenty"
+          />
+          <input
+            type="number"
+            name="one-hundred"
+            id="one-hundred"
+            class="money"
+            placeholder="One Hundred"
+          />
+        </div>
+        <button id="refund">change</button>
+        <div id="output"></div>
+      </div>
+    </form>
+    <script src="./assets/script/script.js"></script>
+  </body>
 </html>
